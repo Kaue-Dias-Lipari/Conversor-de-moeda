@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(215, 255, 213);
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+header{
+    text-align: center;
+}
+
+header h1{
+    font-size: 20px;
+    margin: 30px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+label {
+    margin: 28px 0 5px 0;
+    text-align: center;
+}
+
+input{
+    background-color: white;
+    border: none;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 30px;
+    padding: 5px;
+    width: 50%;
+}
+
+input:focus {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    outline: 0;
+}
+
+span {
+    margin: 25px;
+    text-align: center;
+}
+
+button {
+    margin: 25px;
+    padding: 8px 20px 8px 20px;
+    text-align: center;
+    border-radius: 30px;
+    background-color: rgb(8, 160, 0);
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+}
+
+button:active {
+    transform: scale(0.95);
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
